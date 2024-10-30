@@ -40,6 +40,11 @@ a {
 	background-color: var(--main-color-alt);
 	z-index: 999;
 }
+@media (max-width: 991px) {
+	.scroller {
+		height: 10px;
+	}
+}
 /*     Media Queries      */
 /* Small Screen */
 @media (min-width: 768px) {
